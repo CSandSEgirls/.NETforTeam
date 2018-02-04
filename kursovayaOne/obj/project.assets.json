@@ -664,23 +664,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\admin\\.nuget\\packages\\": {},
+    "C:\\Users\\андрей\\.nuget\\packages\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\git\\.NETforTeam\\kursovayaOne\\kursovayaOne.csproj",
+      "projectUniqueName": "c:\\Users\\андрей\\Desktop\\PROJECT_NET\\.NETforTeam\\kursovayaOne\\kursovayaOne.csproj",
       "projectName": "kursovayaOne",
-      "projectPath": "C:\\git\\.NETforTeam\\kursovayaOne\\kursovayaOne.csproj",
-      "packagesPath": "C:\\Users\\admin\\.nuget\\packages\\",
-      "outputPath": "C:\\git\\.NETforTeam\\kursovayaOne\\obj\\",
+      "projectPath": "c:\\Users\\андрей\\Desktop\\PROJECT_NET\\.NETforTeam\\kursovayaOne\\kursovayaOne.csproj",
+      "packagesPath": "C:\\Users\\андрей\\.nuget\\packages\\",
+      "outputPath": "c:\\Users\\андрей\\Desktop\\PROJECT_NET\\.NETforTeam\\kursovayaOne\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\admin\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\андрей\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp2.0"
