@@ -8,3 +8,13 @@ C:\git\.NETforTeam\kursovayaOne\bin\Debug\netcoreapp2.0\kursovayaOne.dll
 C:\git\.NETforTeam\kursovayaOne\bin\Debug\netcoreapp2.0\kursovayaOne.pdb
 C:\git\.NETforTeam\kursovayaOne\obj\Debug\netcoreapp2.0\kursovayaOne.dll
 C:\git\.NETforTeam\kursovayaOne\obj\Debug\netcoreapp2.0\kursovayaOne.pdb
+C:\Users\Saltanat\Desktop\Dotnet\.NETforTeam\kursovayaOne\bin\Debug\netcoreapp2.0\kursovayaOne.deps.json
+C:\Users\Saltanat\Desktop\Dotnet\.NETforTeam\kursovayaOne\bin\Debug\netcoreapp2.0\kursovayaOne.runtimeconfig.json
+C:\Users\Saltanat\Desktop\Dotnet\.NETforTeam\kursovayaOne\bin\Debug\netcoreapp2.0\kursovayaOne.runtimeconfig.dev.json
+C:\Users\Saltanat\Desktop\Dotnet\.NETforTeam\kursovayaOne\bin\Debug\netcoreapp2.0\kursovayaOne.dll
+C:\Users\Saltanat\Desktop\Dotnet\.NETforTeam\kursovayaOne\bin\Debug\netcoreapp2.0\kursovayaOne.pdb
+C:\Users\Saltanat\Desktop\Dotnet\.NETforTeam\kursovayaOne\obj\Debug\netcoreapp2.0\kursovayaOne.csproj.CoreCompileInputs.cache
+C:\Users\Saltanat\Desktop\Dotnet\.NETforTeam\kursovayaOne\obj\Debug\netcoreapp2.0\kursovayaOne.AssemblyInfoInputs.cache
+C:\Users\Saltanat\Desktop\Dotnet\.NETforTeam\kursovayaOne\obj\Debug\netcoreapp2.0\kursovayaOne.AssemblyInfo.cs
+C:\Users\Saltanat\Desktop\Dotnet\.NETforTeam\kursovayaOne\obj\Debug\netcoreapp2.0\kursovayaOne.dll
+C:\Users\Saltanat\Desktop\Dotnet\.NETforTeam\kursovayaOne\obj\Debug\netcoreapp2.0\kursovayaOne.pdb

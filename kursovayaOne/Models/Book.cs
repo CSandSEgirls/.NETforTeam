@@ -4,13 +4,15 @@ using System.IO;
 using System.Linq;
 
 namespace kursovayaOne.Models{
-    public class Reader
+    public class Book
     {
         public int Id { get; set; }
 
         public string Name { get; set; }
 
-        public int Course { get; set; }
+        public Genre genre { get; set; }
+
+
 
     }
 }
