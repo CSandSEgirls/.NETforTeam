@@ -670,11 +670,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\admin\\Desktop\\3 course\\dotNET\\kursovayaOne\\kursovayaOne.csproj",
+      "projectUniqueName": "C:\\git\\.NETforTeam\\kursovayaOne\\kursovayaOne.csproj",
       "projectName": "kursovayaOne",
-      "projectPath": "C:\\Users\\admin\\Desktop\\3 course\\dotNET\\kursovayaOne\\kursovayaOne.csproj",
+      "projectPath": "C:\\git\\.NETforTeam\\kursovayaOne\\kursovayaOne.csproj",
       "packagesPath": "C:\\Users\\admin\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\admin\\Desktop\\3 course\\dotNET\\kursovayaOne\\obj\\",
+      "outputPath": "C:\\git\\.NETforTeam\\kursovayaOne\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

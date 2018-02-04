@@ -1,0 +1,10 @@
+C:\git\.NETforTeam\kursovayaOne\obj\Debug\netcoreapp2.0\kursovayaOne.csproj.CoreCompileInputs.cache
+C:\git\.NETforTeam\kursovayaOne\obj\Debug\netcoreapp2.0\kursovayaOne.AssemblyInfoInputs.cache
+C:\git\.NETforTeam\kursovayaOne\obj\Debug\netcoreapp2.0\kursovayaOne.AssemblyInfo.cs
+C:\git\.NETforTeam\kursovayaOne\bin\Debug\netcoreapp2.0\kursovayaOne.deps.json
+C:\git\.NETforTeam\kursovayaOne\bin\Debug\netcoreapp2.0\kursovayaOne.runtimeconfig.json
+C:\git\.NETforTeam\kursovayaOne\bin\Debug\netcoreapp2.0\kursovayaOne.runtimeconfig.dev.json
+C:\git\.NETforTeam\kursovayaOne\bin\Debug\netcoreapp2.0\kursovayaOne.dll
+C:\git\.NETforTeam\kursovayaOne\bin\Debug\netcoreapp2.0\kursovayaOne.pdb
+C:\git\.NETforTeam\kursovayaOne\obj\Debug\netcoreapp2.0\kursovayaOne.dll
+C:\git\.NETforTeam\kursovayaOne\obj\Debug\netcoreapp2.0\kursovayaOne.pdb
