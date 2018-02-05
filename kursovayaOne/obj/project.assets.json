@@ -664,23 +664,39 @@
     ]
   },
   "packageFolders": {
+<<<<<<< HEAD
     "C:\\Users\\Saltanat\\.nuget\\packages\\": {},
+=======
+    "C:\\Users\\андрей\\.nuget\\packages\\": {},
+>>>>>>> 41939ab867acf7cf1c81c28ffec3e92d3bd733f9
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
+<<<<<<< HEAD
       "projectUniqueName": "C:\\Users\\Saltanat\\Desktop\\Dotnet\\.NETforTeam\\kursovayaOne\\kursovayaOne.csproj",
       "projectName": "kursovayaOne",
       "projectPath": "C:\\Users\\Saltanat\\Desktop\\Dotnet\\.NETforTeam\\kursovayaOne\\kursovayaOne.csproj",
       "packagesPath": "C:\\Users\\Saltanat\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\Saltanat\\Desktop\\Dotnet\\.NETforTeam\\kursovayaOne\\obj\\",
+=======
+      "projectUniqueName": "c:\\Users\\андрей\\Desktop\\PROJECT_NET\\.NETforTeam\\kursovayaOne\\kursovayaOne.csproj",
+      "projectName": "kursovayaOne",
+      "projectPath": "c:\\Users\\андрей\\Desktop\\PROJECT_NET\\.NETforTeam\\kursovayaOne\\kursovayaOne.csproj",
+      "packagesPath": "C:\\Users\\андрей\\.nuget\\packages\\",
+      "outputPath": "c:\\Users\\андрей\\Desktop\\PROJECT_NET\\.NETforTeam\\kursovayaOne\\obj\\",
+>>>>>>> 41939ab867acf7cf1c81c28ffec3e92d3bd733f9
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
+<<<<<<< HEAD
         "C:\\Users\\Saltanat\\AppData\\Roaming\\NuGet\\NuGet.Config"
+=======
+        "C:\\Users\\андрей\\AppData\\Roaming\\NuGet\\NuGet.Config"
+>>>>>>> 41939ab867acf7cf1c81c28ffec3e92d3bd733f9
       ],
       "originalTargetFrameworks": [
         "netcoreapp2.0"
