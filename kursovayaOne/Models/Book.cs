@@ -12,7 +12,7 @@ namespace kursovayaOne.Models{
 
         public Genre genre { get; set; }
 
-
+        public string Author {get; set;}
 
     }
 }
