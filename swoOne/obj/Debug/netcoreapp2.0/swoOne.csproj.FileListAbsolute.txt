@@ -1,0 +1,10 @@
+C:\Users\admin\Desktop\3 course\dotNET\swoOne\obj\Debug\netcoreapp2.0\swoOne.csproj.CoreCompileInputs.cache
+C:\Users\admin\Desktop\3 course\dotNET\swoOne\obj\Debug\netcoreapp2.0\swoOne.AssemblyInfoInputs.cache
+C:\Users\admin\Desktop\3 course\dotNET\swoOne\obj\Debug\netcoreapp2.0\swoOne.AssemblyInfo.cs
+C:\Users\admin\Desktop\3 course\dotNET\swoOne\bin\Debug\netcoreapp2.0\swoOne.deps.json
+C:\Users\admin\Desktop\3 course\dotNET\swoOne\bin\Debug\netcoreapp2.0\swoOne.runtimeconfig.json
+C:\Users\admin\Desktop\3 course\dotNET\swoOne\bin\Debug\netcoreapp2.0\swoOne.runtimeconfig.dev.json
+C:\Users\admin\Desktop\3 course\dotNET\swoOne\bin\Debug\netcoreapp2.0\swoOne.dll
+C:\Users\admin\Desktop\3 course\dotNET\swoOne\bin\Debug\netcoreapp2.0\swoOne.pdb
+C:\Users\admin\Desktop\3 course\dotNET\swoOne\obj\Debug\netcoreapp2.0\swoOne.dll
+C:\Users\admin\Desktop\3 course\dotNET\swoOne\obj\Debug\netcoreapp2.0\swoOne.pdb
