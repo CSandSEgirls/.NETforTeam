@@ -1,0 +1,10 @@
+C:\Users\admin\Desktop\3 course\dotNET\KursovayaTwo\myLibrary\obj\Debug\netcoreapp2.0\myLibrary.csproj.CoreCompileInputs.cache
+C:\Users\admin\Desktop\3 course\dotNET\KursovayaTwo\myLibrary\obj\Debug\netcoreapp2.0\myLibrary.AssemblyInfoInputs.cache
+C:\Users\admin\Desktop\3 course\dotNET\KursovayaTwo\myLibrary\obj\Debug\netcoreapp2.0\myLibrary.AssemblyInfo.cs
+C:\Users\admin\Desktop\3 course\dotNET\KursovayaTwo\myLibrary\bin\Debug\netcoreapp2.0\myLibrary.deps.json
+C:\Users\admin\Desktop\3 course\dotNET\KursovayaTwo\myLibrary\bin\Debug\netcoreapp2.0\myLibrary.runtimeconfig.json
+C:\Users\admin\Desktop\3 course\dotNET\KursovayaTwo\myLibrary\bin\Debug\netcoreapp2.0\myLibrary.runtimeconfig.dev.json
+C:\Users\admin\Desktop\3 course\dotNET\KursovayaTwo\myLibrary\bin\Debug\netcoreapp2.0\myLibrary.dll
+C:\Users\admin\Desktop\3 course\dotNET\KursovayaTwo\myLibrary\bin\Debug\netcoreapp2.0\myLibrary.pdb
+C:\Users\admin\Desktop\3 course\dotNET\KursovayaTwo\myLibrary\obj\Debug\netcoreapp2.0\myLibrary.dll
+C:\Users\admin\Desktop\3 course\dotNET\KursovayaTwo\myLibrary\obj\Debug\netcoreapp2.0\myLibrary.pdb

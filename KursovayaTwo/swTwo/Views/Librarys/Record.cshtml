@@ -1,0 +1,30 @@
+@using System.Linq
+@using swTwo.Models
+@model List<Details>
+@using System.Collections.Generic
+
+<table class="table">
+    <thead>
+     <tr>
+       <th> Reader  </th>
+       <th> Book name </th>
+       <th> Employee  </th>
+        <th>  BorrowDate </th>
+       <th>  ReturnDate  </th>
+    
+     </tr>
+    </thead>
+    <tbody>
+    @foreach(var item in Model)
+    {
+        <tr>
+           <td> @item.Name </td>
+           <td> @item.BookName  </td>
+           <td> @item.EmployeeName </td>
+           <td> @item.BorrowDate  </td>
+           <td> @item.ReturnDate  </td>
+         
+        </tr>
+    }
+    </tbody>
+</table> 
