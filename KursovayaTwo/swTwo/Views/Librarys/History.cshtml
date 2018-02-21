@@ -1,10 +1,10 @@
 @using System.Linq
 @using swTwo.Models
-@model List<Details>
+@model List<Historys>
 <div class="form-group">
   <label for="usr">Reader Name:</label>
   <form method="POST">
-   <input type="text" name="PersonName"  class="form-control" ></input>
+   <input type="text" name="Name"  class="form-control" ></input>
    </form>
 </div>
 <table class="table">
@@ -12,7 +12,6 @@
      <tr>
        <th> Reader  </th>
        <th> Book name </th>
-       <th> Employee  </th>
         <th>  BorrowDate </th>
        <th>  ReturnDate  </th>
     
@@ -24,7 +23,6 @@
         <tr>
            <td> @item.Name </td>
            <td> @item.BookName  </td>
-           <td> @item.EmployeeName </td>
            <td> @item.BorrowDate  </td>
            <td> @item.ReturnDate  </td>
          

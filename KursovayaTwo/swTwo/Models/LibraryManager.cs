@@ -52,7 +52,7 @@ namespace swTwo.Models{
                             }).ToList();
             return joined;
         }
-        public List<History> ReturnHistory(List<Book> bookList,List<Record> recordList,
+        public List<Historys> ReturnHistory(List<Book> bookList,List<Record> recordList,
                List<Employees> employeeList,List<Reader> readerList, string readerName){
                   
           
@@ -89,35 +89,43 @@ namespace swTwo.Models{
                                             returnDate   = k.employees.records.record.Returned_date,
                                             bookName     = k.books.Name   
                                         }
-                                     ).Select(item => new History(){
+                                     ).Select(item => new Historys(){
                                         Name         = item.name,
                                         BorrowDate   = item.borrowDate,
                                         ReturnDate   = item.returnDate,
                                         BookName     =item.bookName 
+                                        
                             }).ToList();
              return histories;
         }
-        public void oderBook(List<Book> bookList,List<Record> recordList,string name){
+        public  List<Input> oderBook(List<Book> bookList,List<Record> recordList,string BookName,int readerID,int employeeID){
              
 
-              Console.WriteLine("Enter your reader_id");
-                                int readerID = Convert.ToInt32(Console.ReadLine());
-                                Console.WriteLine("Employees' ID have to be entered");
-                                int employeeID = Convert.ToInt32(Console.ReadLine());
+             // Console.WriteLine("Enter your reader_id");
+                              //  int readerID = Convert.ToInt32(Console.ReadLine());
+                             //   Console.WriteLine("Employees' ID have to be entered");
+                               // int employeeID = Convert.ToInt32(Console.ReadLine());
                                 var itemList = bookList
-                                                .Where(x => x.Name == name)
+                                                .Where(x => x.Name == BookName)
                                                 .Select(x=>x.Id)
                                                 .ToList();
-                                int bookID=itemList.ElementAt(0);
+                                 int bookID=itemList.ElementAt(0);
                                 Record newRecord = new Record();
                                 newRecord.Borrowed_date = DateTime.Today;
                                 newRecord.Returned_date =  DateTime.Today.AddDays(10);
                                 newRecord.Reader_id = readerID;
                                 newRecord.Employee_id = employeeID;
                                 newRecord.Book_id =bookID;
-                                
                                 recordList.Add(newRecord);
-                                Console.WriteLine("You succesfully ordered the book!");
+                                Input newInput = new Input();
+                                newInput.BookId = bookID;
+                                newInput.PersonId = readerID;
+                                newInput.BorrowDate =  DateTime.Today;
+                                newInput.BookName = BookName;
+                                List<Input> items = new List<Input>();
+                                items.Add(newInput);
+                return items;
+                             //   Console.WriteLine("You succesfully ordered the book!");
         }
         
     }

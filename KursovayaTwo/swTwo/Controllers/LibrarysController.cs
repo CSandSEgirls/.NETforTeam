@@ -34,34 +34,60 @@ namespace swTwo.Controllers
             var detail       = lbm.ReturnDetails(bookList,recordList,employeeList,readerList); 
             return View(detail);
         }
-
+          [HttpGet]
          public IActionResult OrderBook()
         {
-            return View();
-        }
 
+            var res = new List<Input>();
+             var val = new Input ()
+            {
+                  BookId = 1,
+                  BookName = "War and Peace",
+                  PersonId = 0,
+                  BorrowDate = DateTime.Now
+            };
+            res.Add(val);
+
+            return View(res);
+            
+        }
+         [HttpPost]
+           public IActionResult OrderBook(Input model)
+        {
+            LibraryManager lbm = new LibraryManager(); 
+              var bookList     = store.returnBook();   
+              var recordList   = store.returnRecord(); 
+              var employeeList = store.returnEmployees(); 
+              var readerList   = store.returnReader();  
+              var itms = lbm.oderBook(bookList,recordList,model.BookName,model.PersonId,model.EmployeeId);
+            
+              return View(itms);
+        }
        [HttpGet]
        public IActionResult History()
         {
-             var calc = new Input()
+            var res = new List<Historys>();
+             var val = new Historys ()
             {
-                  BookName = " ",
-                  PersonName = "p",
-                  EmployeeId = 0,
-                  PersonId = 0
+                  BookName = "War and Peace ",
+                  Name = "Current",
+                  BorrowDate =  DateTime.Now,
+                  ReturnDate =  DateTime.Now
             };
-            return View(calc);
+            res.Add(val);
+
+            return View(res);
            
         }
        [HttpPost]
-         public IActionResult History(Details model)
+         public IActionResult History(Historys model)
         {
               LibraryManager lbm = new LibraryManager(); 
               var bookList     = store.returnBook();   
               var recordList   = store.returnRecord(); 
               var employeeList = store.returnEmployees(); 
               var readerList   = store.returnReader();  
-              var value3 = lbm.ReturnHistory(bookList,recordList,employeeList,readerList,model.PersonName);
+              var value3 = lbm.ReturnHistory(bookList,recordList,employeeList,readerList,model.Name);
               return View(value3);
         }
     }
