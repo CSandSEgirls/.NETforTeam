@@ -14,5 +14,7 @@ namespace myLibrary.Models{
 
         public string Author {get; set;}
 
+        public string Flag {get; set;}
+    
     }
 }

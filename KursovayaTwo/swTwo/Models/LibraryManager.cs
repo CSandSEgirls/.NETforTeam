@@ -7,6 +7,16 @@ using myLibrary.Models;
 namespace swTwo.Models{
     public class LibraryManager
     {
+         public List<Book> sortBookName(List<Book> bookList){
+           var bkList = bookList
+                        .OrderBy(x=>x.Name).ToList();
+            return bkList;
+         }
+          public List<Book> sortBookAuthor(List<Book> bookList){
+           var bkList = bookList
+                        .OrderBy(x=>x.Author).ToList();
+            return bkList;
+         }
         public List<Details> ReturnDetails(List<Book> bookList,List<Record> recordList,
                List<Employees> employeeList,List<Reader> readerList){
              var newDetails = readerList

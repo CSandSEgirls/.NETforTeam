@@ -1,6 +1,6 @@
 @using System.Linq
 @using myLibrary.Models;
-@model List<Book>
+@model BookModel;
 @using System.Collections.Generic
 @{
     ViewData["Title"] = "Book";
@@ -15,7 +15,7 @@
      </tr>
     </thead>
     <tbody>
-    @foreach(var item in Model)
+    @foreach(var item in Model.Books)
     {
         <tr>
            <td> @item.Id </td>
@@ -25,4 +25,15 @@
         </tr>
     }
     </tbody>
+
+
+
 </table> 
+<form method="GET">
+    <!--input model jasau kk tagy  create-->
+    @for(var i = 0; i < Model.BookPage; i ++) {
+        <button type="submit" name="page" value="@i">@i</button>
+    }
+  <button type="submit" name="Flag" class="btn btn-primary" value="Sort by Name" >Sort by Name</button>
+  <button type="submit" class="btn btn-primary" name="Flag" value="Sort by Author"> Sort by Author</button>
+</form>
