@@ -1,0 +1,25 @@
+@using System.Linq
+@using myLibrary.Models
+@model List<newRoute>
+@using System.Collections.Generic
+<table class="table">
+    <thead>
+     <tr>
+       <th> Id  </th>
+       <th>From and Where </th>
+       <th>Dauration </th>
+       
+    
+     </tr>
+    </thead>
+    <tbody>
+    @foreach(var item in Model)
+    {
+        <tr>
+           <td> @item.Id </td>
+           <td> @item.FromWhereToWhere</td>
+           <td> @item.Days  </td>         
+        </tr>
+    }
+    </tbody>
+</table>

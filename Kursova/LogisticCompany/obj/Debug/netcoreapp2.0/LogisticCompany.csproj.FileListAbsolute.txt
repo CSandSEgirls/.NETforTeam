@@ -1,0 +1,12 @@
+C:\Users\admin\Desktop\3 course\dotNET\MidTerm\LogisticCompany\bin\Debug\netcoreapp2.0\LogisticCompany.deps.json
+C:\Users\admin\Desktop\3 course\dotNET\MidTerm\LogisticCompany\bin\Debug\netcoreapp2.0\LogisticCompany.runtimeconfig.json
+C:\Users\admin\Desktop\3 course\dotNET\MidTerm\LogisticCompany\bin\Debug\netcoreapp2.0\LogisticCompany.runtimeconfig.dev.json
+C:\Users\admin\Desktop\3 course\dotNET\MidTerm\LogisticCompany\bin\Debug\netcoreapp2.0\LogisticCompany.dll
+C:\Users\admin\Desktop\3 course\dotNET\MidTerm\LogisticCompany\bin\Debug\netcoreapp2.0\LogisticCompany.pdb
+C:\Users\admin\Desktop\3 course\dotNET\MidTerm\LogisticCompany\bin\Debug\netcoreapp2.0\myLibrary.dll
+C:\Users\admin\Desktop\3 course\dotNET\MidTerm\LogisticCompany\bin\Debug\netcoreapp2.0\myLibrary.pdb
+C:\Users\admin\Desktop\3 course\dotNET\MidTerm\LogisticCompany\obj\Debug\netcoreapp2.0\LogisticCompany.csproj.CoreCompileInputs.cache
+C:\Users\admin\Desktop\3 course\dotNET\MidTerm\LogisticCompany\obj\Debug\netcoreapp2.0\LogisticCompany.AssemblyInfoInputs.cache
+C:\Users\admin\Desktop\3 course\dotNET\MidTerm\LogisticCompany\obj\Debug\netcoreapp2.0\LogisticCompany.AssemblyInfo.cs
+C:\Users\admin\Desktop\3 course\dotNET\MidTerm\LogisticCompany\obj\Debug\netcoreapp2.0\LogisticCompany.dll
+C:\Users\admin\Desktop\3 course\dotNET\MidTerm\LogisticCompany\obj\Debug\netcoreapp2.0\LogisticCompany.pdb

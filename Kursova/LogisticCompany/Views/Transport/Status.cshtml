@@ -1,0 +1,35 @@
+@using System.Linq
+@using myLibrary.Models
+@model List<newOrder>
+@using System.Collections.Generic
+<table class="table">
+    <thead>
+     <tr>
+       <th> Заказ ID </th>
+       <th >ФИО</a> </th>
+       <th>Телефон</th>
+       <th>Почта </th>
+       <th>Куда Откуда</th>
+       <th>Срок </th>
+       <th>Вес</th>
+       <th>Цена</th> 
+       <th>Статус</th> 
+     </tr>
+    </thead>
+    <tbody>
+    @foreach(var item in Model)
+    {
+        <tr>
+           <td> @item.Id </td>
+           <td> @item.FullName</td>
+           <td> @item.Phone</td>
+           <td> @item.Email</td>
+           <td> @item.FromWhereToWhere</td>
+           <td> @item.Days</td>
+           <td> @item.Weight</td>
+           <td> @item.Price</td>
+           <td>@item.Status</td>
+         
+        </tr>
+    }
+    </tbody>

@@ -1,0 +1,75 @@
+
+@using System.Linq
+@using myLibrary.Models
+@model BasicModel
+@using System.Collections.Generic
+
+<h4 style="color:blue">Choose by ID</h4>
+<table class="table">
+    <thead>
+     <tr>
+       <th> Id  </th>
+       <th>Type </th>
+       <th>Weight </th>
+       <th>Price</th>
+
+    
+     </tr>
+    </thead>
+    <tbody>
+    @foreach(var item in Model.categoryList)
+    {
+        <tr>
+           <td> @item.Id </td>
+           <td> @item.Type</td>
+           <td> @item.Weight </td>
+           <td>@item.Price</td>
+         
+        </tr>
+    }
+    </tbody>
+</table>
+<h4 style="color:blue">Choose by ID</h4>
+<table class="table">
+    <thead>
+     <tr>
+       <th> Id  </th>
+       <th>From and Where </th>
+       <th>Dauration </th>
+       
+    
+     </tr>
+    </thead>
+    <tbody>
+    @foreach(var item in Model.routeList)
+    {
+        <tr>
+           <td> @item.Id </td>
+           <td> @item.FromWhereToWhere</td>
+           <td> @item.Days  </td>       
+        </tr>
+    }
+    </tbody>
+</table>
+<p style="color:red;" >Форма Заказа</p>
+<form method="POST">
+  <div class="form-group" style="width:50%; height:20%">
+    <label for="inputsm">Full Name</label>
+    <input class="form-control input-sm" id="inputsm" type="text" name="FullName" >
+  </div>
+  <label for="inputdefault">Your ID</label>
+    <input class="form-control" id="inputdefault" type="text" name = "PersonId" style="width:50%; height:20%">
+    <label for="inputdefault">Telephone</label>
+    <input class="form-control" id="inputdefault" type="text" name = "Phone"style="width:50%; height:20%">
+ 
+    <label for="inputlg">Email</label>
+    <input class="form-control input-lg" id="inputlg" name ="Email" type="text" style="width:50%; height:20%">
+
+    <label for="inputlg">CategoryId</label>
+    <input class="form-control input-lg" id="inputlg" name="CategoryId"type="text" style="width:50%; height:20%" >
+   
+    <label for="inputlg">RouteId</label>
+    <input class="form-control input-lg" id="inputlg" name="RouteId"  type="text" style="width:50%; height:20%">  
+   <input type="submit" 
+                value="Submit" />
+</form>

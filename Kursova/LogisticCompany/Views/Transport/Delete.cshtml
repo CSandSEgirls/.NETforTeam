@@ -1,0 +1,29 @@
+@using System.Linq
+@using myLibrary.Models
+@model List<Route>
+@using System.Collections.Generic
+<table class="table">
+    <thead>
+     <tr>
+       <th> Id  </th>
+       <th>From and Where </th> 
+     </tr>
+    </thead>
+    <tbody>
+    @foreach(var item in Model)
+    {
+        <tr>
+           <td> @item.Id </td>
+           <td> @item.FromWhereToWhere</td>
+        </tr>
+    }
+    </tbody>
+
+
+
+</table>
+<form method="POST">
+  <label for="inputdefault">Which Category ID you want delete</label>
+  <input class="form-control" id="inputdefault" type="text" name = "Id" style="width:50%; height:20%">
+  <input type="submit" value="Submit" />
+</form>

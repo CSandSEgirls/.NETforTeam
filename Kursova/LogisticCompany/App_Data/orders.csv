@@ -1,0 +1,8 @@
+Id;FullName;Phone;Email;CategoryId;RouteId;
+1;Nazym;87758677208;nazym_turysbekova@mail.ru;1;2
+2;Assem;87758674044;nursulu@mail.ru;2;3
+3;Marat Kairatulu;45637890;kaira@gmail.com;3;1
+4;Aru Omarali;87023456789;aru_omarlai;3;2
+5;Assiya Karatai ;87776789033;Assiya@mail.ru;1;3
+6;Darkhan;87776789033;Darkhan@mail.ru;2;4
+7;Gaziz;878998873;gaziz@mail.ru;1;2
