@@ -17,6 +17,7 @@ namespace swTwo.Models{
                         .OrderBy(x=>x.Author).ToList();
             return bkList;
          }
+        
         public List<Details> ReturnDetails(List<Book> bookList,List<Record> recordList,
                List<Employees> employeeList,List<Reader> readerList){
              var newDetails = readerList

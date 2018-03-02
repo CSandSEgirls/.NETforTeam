@@ -13,7 +13,7 @@ namespace swTwo.Models{
 
         public DateTime   ReturnDate   { get; set; }
         public string  BookName  { get; set; }
-    
+        public string Flag {get; set;}
        
 
     }

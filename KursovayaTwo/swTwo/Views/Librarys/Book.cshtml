@@ -5,12 +5,13 @@
 @{
     ViewData["Title"] = "Book";
 }
+@ViewBag.Flag
 <table class="table">
     <thead>
      <tr>
        <th> Id  </th>
-       <th> Name  </th>
-       <th> Author  </th>
+       <th><a href="/Librarys/book?Flag=SortByName">Name</a></th>
+       <th><a href="/Librarys/book?Flag=SortByAuthor">Authors</a></th>
     
      </tr>
     </thead>
@@ -34,6 +35,6 @@
     @for(var i = 0; i < Model.BookPage; i ++) {
         <button type="submit" name="page" value="@i">@i</button>
     }
-  <button type="submit" name="Flag" class="btn btn-primary" value="Sort by Name" >Sort by Name</button>
-  <button type="submit" class="btn btn-primary" name="Flag" value="Sort by Author"> Sort by Author</button>
+  <button type="submit" name="Flag" class="btn btn-primary" value="SortByName" >Sort by Name</button>
+  <button type="submit" class="btn btn-primary" name="Flag" value="SortByAuthor"> Sort by Author</button>
 </form>

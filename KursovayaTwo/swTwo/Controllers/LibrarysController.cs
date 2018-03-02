@@ -26,65 +26,26 @@ namespace swTwo.Controllers
 
             var bookes = store.returnBook();
             LibraryManager lbm = new LibraryManager();
-             ViewBag.PageCount = bookes.Count/10;
+            ViewBag.PageCount = bookes.Count/10;
             
-            if (Flag != null) {
-                if (Flag == "") { 
-                  var model = new BookModel 
-                  { 
-                     Books = lbm.sortBookName(bookes),
-                     BookPage =  ViewBag.PageCount
-                  };
-                    return View(model);
-                }
-                
-            }
+            var model = new BookModel 
+            { 
+                Books = bookes,
+                BookPage =  ViewBag.PageCount
+            };
 
+            if (!string.IsNullOrEmpty(Flag)) {
+                if(Flag.Equals("SortByName"))
+                    model.Books = lbm.sortBookName(bookes);
+                else if(Flag.Equals("SortByAuthor"))
+                    model.Books = lbm.sortBookAuthor(bookes);
+            }
            
+            model.Books = model.Books.Skip(page * 10).Take(10).ToList();
+            
+            ViewBag.Flag = Flag;
 
-            if (page != 0) {
-              //  books = books.Skip(10).Take(10)
-            }
-
-            if (Flag == null)
-            {
-
-                 var model = new BookModel 
-                  { 
-                     Books = store.returnBook(),
-                     BookPage =  ViewBag.PageCount
-                  };
-                
-                return View(model);
-            }
-            else
-            {
-
-               
-                if (Flag.Equals("Sort by Name"))
-                {
-                    var bookList = store.returnBook();
-                    var sorted = lbm.sortBookName(bookList);
-                     var model = new BookModel 
-                  { 
-                     Books =  lbm.sortBookName(bookList),
-                     BookPage =  ViewBag.PageCount
-                  };
-                    return View(model);
-                }
-                else
-                {
-                    var bookList = store.returnBook();
-                   var model = new BookModel 
-                  { 
-                     Books =  lbm.sortBookName(bookList),
-                     BookPage =  ViewBag.PageCount
-                  };
-                    return View(model);
-                }
-            }
-
-
+            return View(model);
         }
         public IActionResult Record()
         {
@@ -96,6 +57,7 @@ namespace swTwo.Controllers
             var detail = lbm.ReturnDetails(bookList, recordList, employeeList, readerList);
             return View(detail);
         }
+         
         [HttpGet]
         public IActionResult OrderBook()
         {
